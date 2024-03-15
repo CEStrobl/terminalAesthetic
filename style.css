@@ -1,0 +1,33 @@
+*{
+	background-color: black;
+	color:rgb(0, 255, 0);
+	font-size: large;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.center{
+	display:flex;
+	align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	margin-top: 15%;
+}
+
+input, .spaces{
+	/* padding:10px; */
+	margin:10px;
+	border:none;
+	width:205px;
+	letter-spacing: 30px;
+	margin-bottom:0px;
+}
+
+.spaces{
+	margin:0px;
+	height:2px;
+	
+}
+
+input:focus{
+	outline:none;
+}
