@@ -12,22 +12,41 @@
     flex-direction: column;
 	margin-top: 15%;
 }
-
-input, .spaces{
-	/* padding:10px; */
-	margin:10px;
-	border:none;
-	width:205px;
-	letter-spacing: 30px;
-	margin-bottom:0px;
+p {
+	padding: 20px;
 }
 
-.spaces{
-	margin:0px;
-	height:2px;
-	
+form {
+	display: flex;
+	justify-content: center;
+  }
+  input {
+	margin: 0 10px;
+	padding: 10px;
+	border:none;
+	border-bottom: 1px solid #2bff00;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	font-size: 28px;
+  }
+  .special {
+	margin-top: 2rem;
+	font-size: 2rem;
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.3s ease;
+	i {
+	  font-size: 1rem;
+	  cursor: pointer;
+	}
+	&.hidden {
+	  opacity: 0;
+	  visibility: hidden;
+	}
 }
 
 input:focus{
 	outline:none;
 }
+  
